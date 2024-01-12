@@ -1,0 +1,62 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0eeed 20%, #41270f 30%, #41270f 30%, #41270f 30%);
+    font-family: sans-serif;
+    color: #fff; 
+}
+
+.header {
+    color: #41270f;
+    text-align: center;
+    font: 1em sans-serif;
+}
+
+.img {
+    text-align: center;
+    max-width: 100%; 
+    height: auto;
+}
+
+#tiramisu {
+    font-weight: bold;
+    font-size: 45px;
+}
+
+/*contenuto pagina*/
+
+.page {
+    background-color: #41270f;
+}
+
+.elenchi {
+    padding-left: 80px;
+    font-size: 22px;
+    padding-right: 40px;
+}
+
+#t1 {
+    text-align: center;
+   
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+#t2{
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 100%; 
+    }
+}
